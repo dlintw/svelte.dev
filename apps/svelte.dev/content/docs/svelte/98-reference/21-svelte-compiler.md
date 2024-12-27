@@ -371,7 +371,7 @@ namespace AST {
 			| true
 			| ExpressionTag
 			| Array<ExpressionTag | Text>;
-		modifiers: Array<'important'>;
+		modifiers: Array<'important' | 'transition'>;
 	}
 
 	// TODO have separate in/out/transition directives
